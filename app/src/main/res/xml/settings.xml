@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.reminderbeep.TimePreference
+        android:key="morning_start"
+        android:title="@string/morning_start"
+        android:defaultValue="7:0" />
+    <com.reminderbeep.TimePreference
+        android:key="afternoon_start"
+        android:title="@string/afternoon_start"
+        android:defaultValue="13:0" />
+    <com.reminderbeep.TimePreference
+        android:key="evening_start"
+        android:title="@string/evening_start"
+        android:defaultValue="17:0" />
+    <com.reminderbeep.TimePreference
+        android:key="sleep_start"
+        android:title="@string/sleep_start"
+        android:defaultValue="22:0" />
+</PreferenceScreen>
